@@ -18,7 +18,8 @@
 		}
 		.font{
 			font-family: serif black fantasy;
-			color: lightgray;
+			color: black;
+			background: #D9D9D9;
 		}
 		.logo{
 			transform: translate(0px, -45px);
@@ -33,26 +34,57 @@
 		.indown{
 			text-decoration: none;
 			font-size: 60px;
+			background-color: black;
+			font-family: arial black;
+		}
+		.down {
+			background-color: black;
+			color: white;
+		}
+		.anb {
+			border: 1px solid black;
+			border-collapse:collapse;
+		}
+		.anb1 {
+			border: 1px solid black;
+			border-collapse:collapse;
+		}
+		.emaila {
+			border: solid 1px 	#D8D8D8 ;
+			border-radius: 30px;
+			background-color: #D8D8D8 ;
+		}
+		.hrb{
+			margin-top: -35px;
+			color: orangered;
+
+		}
+		.go{
+			border-radius: 30px;
+			background-color: #D8D8D8;
+			font-family: arial black;
 		}
 	</style>
 </head>
 <body>
 	<header>
 		<div class="updiv">
-			<img src="https://th.bing.com/th?id=ALSTU72BE3823FBB1F096995FCE6C3DA49ADA6A58F200E967EFC400151EFDC58E06BC&w=165&h=144&o=6&oif=webp&pid=SANGAM" class="logo">
+			<h1 class="hrb">Rbx.Wiki</h1>
 			<h1 id="hp"></h1>
 		</div>
 	</header>
 	<main>
 <a href="#down" class="indown" >В низ</a>
 		<div class="font">
+			<center>
 			<img src="https://th.bing.com/th/id/R.b6b7cb40818dcd5e07f8a19c6eaea504?rik=vbWwOLIz9WooJw&pid=ImgRaw&r=0" 	width="500px" ; height="400px">
-			<h2>8-TH Annual Bloxy</h2>
+
+				<h2>8-TH Annual Bloxy</h2>
 		<p>
 		27 марта около миллиона человек со всего мира собрались вместе, чтобы отпраздновать самые невероятные впечатления и создателей Roblox на нашей виртуальной церемонии награждения: 8-й ежегодной премии Bloxy Awards.
 	</p>
 <p>
-Задолго до премьеры шоу игроки, создатели и разработчики галактики сошлись на высокотехнологичном космодроме Bloxys. Посетители бродили по среде научной фантастики, отдавали свои голоса за популярные категории и преследовали ограниченный по времени виртуальный мерч внутри комплекса космической эры. Но все это было лишь прелюдией к приключению, которое вот-вот развернется.
+Задолго до премьеры шоу игроки, создатели и разработчики галактики сошлись на высокотехнологичном космодроме Bloxys. Посетители бродили по среде научной фантастики, отдавали свои голоса за популярные категории и преследовали ограниченный по времени виртуальный мерч внутри комплекса космической эры. Но все это было лишь прелюдией к приключению, которое вот-вот развернется.</p>
 
 
 <p>
@@ -114,29 +146,53 @@ Roblox Видео года – FGTeeV – Психо PIG Музыкальное 
 </p>
 <p>
 Хотите пережить всю славу, волнение и приключения Bloxys? Вы можете испытать все шоу в верхней части каждого второго часа, посетив 8-й ежегодный центр Bloxy Awards. Версия шоу также будет загружена в официальный аккаунт Roblox на YouTube.</p>
+			</center>
+			
 		</div>
+		<table class="anb">
+			<tr class="anb1">
+				<td class="anb1" style="background-color:#D8D8D8">8th Annual Bloxy Awards</td>
+				<td class="anb1">31 Марта, 2021 Года</td>
+			</tr>
+
+			<tr class="anb1">
+				<td class="anb1" style="background-color:#D8D8D8">7th Annual Bloxy Awards</td>
+				<td>4 Марта, 2020 Года</td>
+			</tr>
+			<tr class="anb1">
+				<td class="anb1" style="background-color:#D8D8D8">6th Annual Bloxy Awards</td>
+				<td class="anb1">4 Марта, 2019 Года</td>
+			</tr>
+			<tr class="anb1">
+				<td class="anb1" style="background-color:#D8D8D8">5th Annual Bloxy Awards</td>
+				<td class="anb1">17 Февраля, 2018 Года</td>
+			</tr>
+			<tr class="anb1">
+				<td class="anb1" style="background-color:#D8D8D8">4th Annual Bloxy Awards</td>
+				<td class="anb1"> 29 Января, 2017 Года</td>
+			</tr>
+
+
+		</table>
 		
 		
 	</main>
-	<footer id="down">
-		&copy; 2023
-		<b>вот таблица она невидима)</b>
-		<div class="invice">
-			<table>
-				<tr>
-					<td>Roblox</td>
-					<td>annual bloxy</td>
-				</tr>
-			</table>
-		</div>
-	</footer>
-		<form>
+	<footer id="down" class="down">
+		&copy; 2023 <br>
+		<form >
 			ваш e-mail
-			<input type="email" name="e-mail">	
+			<input class="emaila" type="email" name="e-mail" placeholder="example@email.com">
+			<button onclick="go()" class="go">Go!</button>
 		</form>
+	
+	</footer>
+		
 	
 <script type="text/javascript">
 	alert('Добро пожаловать на сайт!')
+	function go(){
+		alert('Done!')
+	}
 </script>
 </body>
 </html>
